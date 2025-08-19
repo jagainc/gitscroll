@@ -15,7 +15,6 @@
   <!-- Badges -->
   <p>
     <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build Status">
-    <img src="https://img.shields.io/badge/license-MIT-blue" alt="License">
     <img src="https://img.shields.io/badge/PRs-welcome-orange" alt="PRs Welcome">
   </p>
 </div>
@@ -30,37 +29,6 @@
         <span style="width: 12px; height: 12px; border-radius: 50%; background-color: #ff5f56; margin-right: 8px;"></span>
         <span style="width: 12px; height: 12px; border-radius: 50%; background-color: #ffbd2e; margin-right: 8px;"></span>
         <span style="width: 12px; height: 12px; border-radius: 50%; background-color: #27c93f;"></span>
-      </div>
-
-      <!-- Static Code Feed -->
-      <div>
-        <!-- Post 1: Python -->
-        <div style="padding: 15px; border-bottom: 1px solid #30363d;">
-          <div style="display: flex; align-items: center; margin-bottom: 10px;">
-            <img src="https://avatars.githubusercontent.com/u/1024025?v=4" style="width: 32px; height: 32px; border-radius: 50%; margin-right: 10px;" alt="avatar">
-            <div>
-              <strong style="font-size: 0.9rem;">linus-torvalds</strong>
-              <small style="font-size: 0.8rem; color: #8b949e;">/kernel-heist</small>
-            </div>
-          </div>
-          <pre style="background-color: #161b22; border-radius: 6px; padding: 12px; font-size: 0.85rem; margin: 0;"><code>...</code></pre>
-        </div>
-
-        <!-- Post 2: JavaScript -->
-        <div style="padding: 15px; border-bottom: 1px solid #30363d;">
-          <div style="display: flex; align-items: center; margin-bottom: 10px;">
-            <img src="https://avatars.githubusercontent.com/u/69631?v=4" style="width: 32px; height: 32px; border-radius: 50%; margin-right: 10px;" alt="avatar">
-            <div>
-              <strong style="font-size: 0.9rem;">sindresorhus</strong>
-              <small style="font-size: 0.8rem; color: #8b949e;">/awesome-list-generator</small>
-            </div>
-          </div>
-          <pre style="background-color: #161b22; border-radius: 6px; padding: 12px; font-size: 0.85rem; margin: 0;"><code>...</code></pre>
-        </div>
-      </div>
-    </div>
-  </details>
-</div>
 
 ---
 
@@ -149,3 +117,4 @@ Contributions are what make the open source community such an amazing place to l
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+

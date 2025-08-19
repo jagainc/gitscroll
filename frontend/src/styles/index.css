@@ -1,0 +1,15 @@
+/* GitScroll Styles Entry Point */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Import Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import GitScroll Custom Styles */
+@import './globals.css';
+@import './components.css';
+@import './animations.css';
+@import './utilities.css';

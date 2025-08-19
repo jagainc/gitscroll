@@ -1,0 +1,74 @@
+/* GitScroll Utility Classes */
+
+/* Text Utilities */
+.text-primary { color: var(--gitscroll-text-primary); }
+.text-secondary { color: var(--gitscroll-text-secondary); }
+.text-muted { color: var(--gitscroll-text-muted); }
+.text-accent { color: var(--gitscroll-accent); }
+
+.text-xs { font-size: 0.75rem; }
+.text-sm { font-size: 0.875rem; }
+.text-base { font-size: 1rem; }
+.text-lg { font-size: 1.125rem; }
+.text-xl { font-size: 1.25rem; }
+
+.font-medium { font-weight: 500; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+
+.text-center { text-align: center; }
+.truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* Background Utilities */
+.bg-primary { background-color: var(--gitscroll-primary); }
+.bg-accent { background-color: var(--gitscroll-accent); }
+.bg-white { background-color: var(--gitscroll-white); }
+
+/* Border Utilities */
+.border { border: 1px solid var(--gitscroll-border); }
+.border-light { border: 1px solid var(--gitscroll-border-light); }
+.rounded { border-radius: var(--radius-md); }
+.rounded-lg { border-radius: var(--radius-lg); }
+.rounded-full { border-radius: var(--radius-full); }
+
+/* Shadow Utilities */
+.shadow-sm { box-shadow: var(--shadow-sm); }
+.shadow { box-shadow: var(--shadow-md); }
+.shadow-lg { box-shadow: var(--shadow-lg); }
+
+/* Display Utilities */
+.flex { display: flex; }
+.grid { display: grid; }
+.hidden { display: none; }
+.block { display: block; }
+
+/* Flexbox Utilities */
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.flex-1 { flex: 1 1 0%; }
+
+/* Position Utilities */
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+
+/* Cursor Utilities */
+.cursor-pointer { cursor: pointer; }
+.cursor-not-allowed { cursor: not-allowed; }
+
+/* Transition Utilities */
+.transition-colors { 
+  transition-property: color, background-color, border-color; 
+  transition-duration: 150ms; 
+}
+
+.transition-transform { 
+  transition-property: transform; 
+  transition-duration: 150ms; 
+}
+
+/* Hover States */
+.hover\:bg-gray-50:hover { background-color: #f9fafb; }
+.hover\:scale-105:hover { transform: scale(1.05); }
+.hover\:shadow-lg:hover { box-shadow: var(--shadow-lg); }

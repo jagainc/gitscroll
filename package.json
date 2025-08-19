@@ -1,0 +1,26 @@
+{
+  "name": "instagram-clone",
+  "version": "1.0.0",
+  "description": "Instagram clone with React frontend and Node.js backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "start": "npm run preview --prefix frontend",
+    "install-frontend": "npm install --prefix frontend",
+    "install-backend": "npm install --prefix backend",
+    "install-all": "npm run install-frontend && npm run install-backend"
+  },
+  "keywords": [
+    "instagram",
+    "clone",
+    "react",
+    "social-media"
+  ],
+  "author": "",
+  "license": "MIT",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ]
+}

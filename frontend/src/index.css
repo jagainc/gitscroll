@@ -1,0 +1,17 @@
+/* Import GitScroll Styles */
+@import './styles/index.css';
+
+/* Legacy styles for compatibility */
+.main-container {
+  height: 100vh;
+  height: -webkit-fill-available; /* For mobile safari */
+}
+
+/* Styles for Reels scrolling */
+.reels-container {
+  scroll-snap-type: y mandatory;
+}
+
+.reel-item {
+  scroll-snap-align: start;
+}

@@ -20,10 +20,10 @@
   </p>
 </div>
 
-<!-- Main App Animation -->
+<!-- Main App "Animation" - Static Version -->
 <div align="center" style="margin: 40px 0;">
   <details open>
-    <summary style="font-size: 1.1rem; font-weight: 600; cursor: pointer; margin-bottom: 10px;">🚀 Live Demo Animation</summary>
+    <summary style="font-size: 1.1rem; font-weight: 600; cursor: pointer; margin-bottom: 10px;">🚀 Live Demo Preview</summary>
     <div style="width: 90%; max-width: 600px; height: 350px; border: 2px solid #e1e4e8; border-radius: 12px; background-color: #0d1117; color: #c9d1d9; font-family: 'SF Mono', 'Consolas', 'Roboto Mono', monospace; overflow: hidden; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
       <!-- Header -->
       <div style="display: flex; align-items: center; padding: 10px; background-color: #161b22; border-bottom: 1px solid #30363d;">
@@ -32,127 +32,35 @@
         <span style="width: 12px; height: 12px; border-radius: 50%; background-color: #27c93f;"></span>
       </div>
 
-      <!-- Scrolling Code Feed -->
-      <div class="scroll-container">
+      <!-- Static Code Feed -->
+      <div>
         <!-- Post 1: Python -->
-        <div class="code-post">
-          <div class="post-header">
-            <img src="https://avatars.githubusercontent.com/u/1024025?v=4" class="avatar" alt="avatar">
+        <div style="padding: 15px; border-bottom: 1px solid #30363d;">
+          <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <img src="https://avatars.githubusercontent.com/u/1024025?v=4" style="width: 32px; height: 32px; border-radius: 50%; margin-right: 10px;" alt="avatar">
             <div>
-              <strong>linus-torvalds</strong>
-              <small>/kernel-heist</small>
+              <strong style="font-size: 0.9rem;">linus-torvalds</strong>
+              <small style="font-size: 0.8rem; color: #8b949e;">/kernel-heist</small>
             </div>
           </div>
-          <pre><code><span class="keyword">def</span> <span class="function">get_user_data</span>(user_id):
-    <span class="keyword">if not</span> user_id:
-        <span class="keyword">return</span> None
-    db = connect_to_database()
-    <span class="keyword">return</span> db.query(f<span class="string">"SELECT * FROM users WHERE id={user_id}"</span>)</code></pre>
+          <pre style="background-color: #161b22; border-radius: 6px; padding: 12px; font-size: 0.85rem; margin: 0;"><code>...</code></pre>
         </div>
 
         <!-- Post 2: JavaScript -->
-        <div class="code-post">
-          <div class="post-header">
-            <img src="https://avatars.githubusercontent.com/u/69631?v=4" class="avatar" alt="avatar">
+        <div style="padding: 15px; border-bottom: 1px solid #30363d;">
+          <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <img src="https://avatars.githubusercontent.com/u/69631?v=4" style="width: 32px; height: 32px; border-radius: 50%; margin-right: 10px;" alt="avatar">
             <div>
-              <strong>sindresorhus</strong>
-              <small>/awesome-list-generator</small>
+              <strong style="font-size: 0.9rem;">sindresorhus</strong>
+              <small style="font-size: 0.8rem; color: #8b949e;">/awesome-list-generator</small>
             </div>
           </div>
-          <pre><code><span class="keyword">const</span> <span class="function">fetchRepos</span> = <span class="keyword">async</span> (user) => {
-  <span class="keyword">const</span> url = <span class="string">`https://api.github.com/users/${user}/repos`</span>;
-  <span class="keyword">const</span> response = <span class="keyword">await</span> fetch(url);
-  <span class="keyword">return</span> <span class="keyword">await</span> response.json();
-};</code></pre>
-        </div>
-
-        <!-- Post 3: React -->
-        <div class="code-post">
-          <div class="post-header">
-            <img src="https://avatars.githubusercontent.com/u/6128107?v=4" class="avatar" alt="avatar">
-            <div>
-              <strong>gaearon</strong>
-              <small>/react-state-manager</small>
-            </div>
-          </div>
-          <pre><code><span class="keyword">function</span> <span class="function">Welcome</span>({ name }) {
-  <span class="keyword">return</span> (
-    <span class="tag">&lt;h1&gt;</span>Hello, {name}<span class="tag">&lt;/h1&gt;</span>
-  );
-}</code></pre>
-        </div>
-
-         <!-- Post 1 (Duplicate for seamless loop) -->
-        <div class="code-post">
-          <div class="post-header">
-            <img src="https://avatars.githubusercontent.com/u/1024025?v=4" class="avatar" alt="avatar">
-            <div>
-              <strong>linus-torvalds</strong>
-              <small>/kernel-heist</small>
-            </div>
-          </div>
-          <pre><code><span class="keyword">def</span> <span class="function">get_user_data</span>(user_id):
-    <span class="keyword">if not</span> user_id:
-        <span class="keyword">return</span> None
-    db = connect_to_database()
-    <span class="keyword">return</span> db.query(f<span class="string">"SELECT * FROM users WHERE id={user_id}"</span>)</code></pre>
+          <pre style="background-color: #161b22; border-radius: 6px; padding: 12px; font-size: 0.85rem; margin: 0;"><code>...</code></pre>
         </div>
       </div>
     </div>
   </details>
 </div>
-
-<!-- CSS for Animations -->
-<style>
-  @keyframes gradient-animation {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-  }
-
-  .scroll-container {
-    animation: scroll-animation 12s linear infinite;
-  }
-
-  @keyframes scroll-animation {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-66.66%); } /* Adjust based on number of original items */
-  }
-
-  .code-post {
-    padding: 15px;
-    border-bottom: 1px solid #30363d;
-  }
-  .post-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  .avatar {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  .post-header strong {
-    font-size: 0.9rem;
-  }
-  .post-header small {
-    font-size: 0.8rem;
-    color: #8b949e;
-  }
-  pre {
-    background-color: #161b22;
-    border-radius: 6px;
-    padding: 12px;
-    font-size: 0.85rem;
-    margin: 0;
-  }
-  .keyword { color: #ff7b72; }
-  .function { color: #d2a8ff; }
-  .string { color: #a5d6ff; }
-  .tag { color: #7ee787; }
-</style>
 
 ---
 
